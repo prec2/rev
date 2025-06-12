@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.star {
+    color: red;
+    font-size: 200px;
+    margin-bottom: 1px;
+    pointer-events: none; /* Allow clicks to pass through */
+}
+
+#hiddenText {
+    color: black;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    height: 60px;
+    /* No need for user-select here since body
