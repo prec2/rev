@@ -31,7 +31,7 @@ body {
     /* No need for user-select here since body */
 }
 
-#wordLabel {
+#signature {
     color: red;
     font-size: 10px;
     font-family: Arial, sans-serif;
