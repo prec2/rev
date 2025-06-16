@@ -28,7 +28,7 @@ body {
     font-family: Arial, sans-serif;
     font-weight: bold;
     height: 60px;
-    /* No need for user-select here since body
+    /* No need for user-select here since body */
 }
 
 #wordLabel {
