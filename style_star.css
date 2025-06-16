@@ -18,8 +18,8 @@ body {
 .star {
     color: red;
     font-size: 200px;
-    margin-bottom: 1px;
-    pointer-events: none; /* Allow clicks to pass through */
+    margin-bottom: 20px;
+    pointer-events: none;
 }
 
 .text-container {
@@ -35,7 +35,6 @@ body {
     font-family: Arial, sans-serif;
     font-weight: bold;
     height: 60px;
-    /* No need for user-select here since body */
 }
 
 #signature {
